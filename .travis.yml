@@ -7,9 +7,9 @@ env:
 
 sudo: required
 
-language: node
+language: node_js
 
-nodejs:
+node_js:
   - "node"
 
 services:
