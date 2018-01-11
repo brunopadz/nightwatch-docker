@@ -9,6 +9,9 @@ sudo: required
 
 language: node
 
+nodejs:
+  - "node"
+
 services:
   - docker
 
