@@ -12,7 +12,7 @@ language: node_js
 node_js:
   - "node"
 
-script: "sudo npm test"
+script: "sudo $(which npm) test"
 
 services:
   - docker
