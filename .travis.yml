@@ -7,12 +7,7 @@ env:
 
 sudo: required
 
-language: node_js
-
-node_js:
-  - "node"
-
-script: "npm test"
+language: generic
 
 services:
   - docker
