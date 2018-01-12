@@ -5,10 +5,10 @@ RUN apk --no-cache add nodejs \
     npm install chromedriver \
     nightwatch
 
-RUN adduser -D -u 2000 nightwatch
+RUN adduser -D -u 1000 nightwatch
 
 USER nightwatch
 
 WORKDIR /home/nightwatch
 
-CMD ["nightwatch", "--help"]
+CMD nightwatch --help
